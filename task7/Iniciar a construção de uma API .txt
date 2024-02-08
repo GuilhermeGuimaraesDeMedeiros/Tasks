@@ -1,0 +1,17 @@
+Iniciar a construção de uma API 
+
+- criar uma pasta com o nome do projeto
+- abrir a pasta com o Visual Studio Code
+- abrir o terminal e dar o comando npm init
+- novo comando: npm install express (framework express)
+- criar: const express = require('express') //importar o framework
+- criar: const bodyParser = require('body-parser') //biblioteca do node.js, utilizado para extrair os dados do corpo de requisições HTTP e torná-los acessíveis em objetos JavaScript para que possam ser facilmente manipulados no código do servidor. 
+
+- criar: const server = express() //instanciar a biblioteca express e quadar em uma variável para chamar as funções do express. *server é apenas um exemplo de nome....pode usar outro nome qualquer
+
+criar: server.listen(9090, () => {console.log('Servidor Funcionando!'} //definir a porta que será utilizada para comunicar e retornar mensagem informando que o servidor está funcionando. 
+
+
+
+
+
